@@ -52,3 +52,5 @@ def test_create_booking_negative():
     print(type(headers))
     print(type(payload))
     assert response.status_code == 500, "Test failed because status code is not 200"
+
+
